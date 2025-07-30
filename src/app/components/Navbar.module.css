@@ -1,0 +1,41 @@
+
+
+.navbar {
+  background-color: #2a2a72; /* Dark blue background color */
+  color: white; /* White text color */
+  padding: 1rem; /* 16px padding on all sides */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items with space between them */
+  align-items: center; /* Vertically align items in the center */
+  border-radius: 0.5rem; /* 8px rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  width: 100%; /* Take full width of its container */
+  max-width: 72rem; /* Max width for larger screens (equivalent to Tailwind's max-w-6xl) */
+  margin: 0 auto; /* Center the navbar horizontally */
+}
+
+.logo {
+  font-size: 1.5rem; /* 24px font size */
+  font-weight: bold; /* Bold font weight */
+}
+
+.navLinks {
+  display: flex; /* Use flexbox for the navigation links */
+  list-style: none; /* Remove bullet points from list items */
+  padding: 0;
+  margin: 0;
+}
+
+.navLinks li {
+  margin-left: 1.5rem; /* 24px space between list items */
+}
+
+.navLinks a {
+  color: white; /* White text color for links */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.2s ease-in-out; /* Smooth color transition on hover */
+}
+
+.navLinks a:hover {
+  color: #d1d5db; /* Light gray color on hover (similar to Tailwind's gray-300) */
+}

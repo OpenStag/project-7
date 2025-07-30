@@ -1,0 +1,49 @@
+/* src/app/Home.module.css */
+
+.container {
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  background-color: #f3f4f6; /* Light gray background */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  padding: 1rem; /* Add padding around the content */
+}
+
+.mainContent {
+  flex-grow: 1; /* Allow this section to grow and take available vertical space */
+  display: flex; /* Use flexbox for content inside */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text */
+  padding: 1rem; /* Add padding */
+}
+
+.heading {
+  font-size: 3rem; /* Large font size */
+  font-weight: 800; /* Extra bold font weight */
+  color: #1e40af; /* Deep blue color */
+  margin-bottom: 1rem; /* Space below heading */
+}
+
+.description {
+  font-size: 1.25rem; /* Medium font size */
+  color: #4b5563; /* Dark gray color */
+  margin-bottom: 2rem; /* Space below description */
+}
+
+.button {
+  background-color: #f59e0b; /* Yellow background */
+  color: white; /* White text */
+  font-weight: bold; /* Bold font */
+  padding: 0.75rem 1.5rem; /* Padding for the button */
+  border-radius: 9999px; /* Fully rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: #d97706; /* Darker yellow on hover */
+}
