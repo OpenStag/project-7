@@ -6,7 +6,7 @@ const BrowseByCategory: React.FC = () => {
   return (
     <section className="bg-blue-200 py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-10 sm:mb-12">
+        <h2 className="text-5xl font-black leading-none text-center text-gray-800 mb-10 sm:mb-12">
           Browse by Category
         </h2>
         <div className="
