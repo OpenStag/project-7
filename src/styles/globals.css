@@ -1,8 +1,0 @@
-/* src/styles/globals.css */
-@import "tailwindcss/preflight"; /* <--- EDITED: Replaced @tailwind base, components, utilities */
-
-/* You can add any custom global CSS here */
-body {
-  background-color: #e0e7ff; /* This matches the light blue background from your image */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* Example: Tailwind's default font stack for better consistency */
-}
