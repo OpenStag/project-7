@@ -3,6 +3,8 @@ import BrowseByCategory from "../components/BrowseByCategory"
 import Home from '../components/Home'; // Correctly import your component
 import ContactUs from "../components/contactus"
 import FeaturedBooks from "../components/FeaturedBooks";
+import Nav from "@/components/nav";
+import Footer from "@/components/footer";
 
 export default function Page() {
     const booksData = [
@@ -12,10 +14,12 @@ export default function Page() {
   ];
   return (
     <div>
+      <Nav />
       <Home />
       <FeaturedBooks books={booksData} />
       <BrowseByCategory />
       <ContactUs/>
-    </div>
+      <Footer/>
+    </div>  
   );
 }
