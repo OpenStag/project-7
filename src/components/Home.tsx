@@ -9,7 +9,7 @@ const Home = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/book1.jpg" // Replace with the actual path to your image
+            src="/book1.jpg" // Replace with the actual path to your image
             alt="Bookshelf background"
             layout="fill"
             objectFit="cover"
@@ -35,9 +35,9 @@ const Home = () => {
 
       {/* About Us Section */}
       <div className="bg-[#AABEE7] py-16">
-        <div className="container mx-auto p-8 max-w-4xl bg-white rounded-lg shadow-lg">
+        <div className="container mx-auto p-8 max-w-4xl text-black bg-white rounded-lg shadow-lg">
           {/* Heading */}
-          <h2 className="text-4xl font-bold text-center mb-8">About Us</h2>
+          <h2 className="text-4xl text-black font-bold text-center mb-8">About Us</h2>
 
           {/* First Paragraph */}
           <p className="text-lg mb-6">
